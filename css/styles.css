@@ -5,12 +5,12 @@
 /* Основной цвет фона #ffffff */
 
 :root {
-    --main-text-color: #757575;
-    --title-text-color: #212121;
-    --accent-color :#2196F3;
-    --White: #ffffff;
-    --main-font-family: 'Roboto', sans-serif;
-    }
+        --main-text-color: #757575;
+        --title-text-color: #212121;
+        --accent-color :#2196F3;
+        --White: #ffffff;
+        --main-font-family: 'Roboto', sans-serif;
+}
 
 body {
         font-family: 'Roboto', sans-serif;
@@ -79,6 +79,8 @@ body {
 
 /* ====================================BUTTONS==================================== */
 .hero-button {
+        font-family: 'Roboto';
+        font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -98,20 +100,22 @@ body {
 }
 
 .button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    text-align: center;
-    letter-spacing: 0.03em;
-    cursor: pointer;
-    background-color: #F5F4FA;
-    color: var(--title-text-color);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        text-align: center;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        background-color: #F5F4FA;
+        color: var(--title-text-color);
 }
 
 .button:hover,
 .button:focus {
-    background-color: var(--accent-color);
-    color: var(--White);
+        background-color: var(--accent-color);
+        color: var(--White);
 }
 /* ====================================/BUTTONS==================================== */
 
@@ -138,7 +142,7 @@ body {
         color: var(--title-text-color);
 }
 .team-fon {
-    background-color: #F5F4FA;
+        background-color: #F5F4FA;
 }
 .team-title {
         font-weight: 700;
@@ -167,7 +171,7 @@ body {
 
 /* ====================================FOOTER==================================== */
 .footer {
-    background-color: #2F303A;
+        background-color: #2F303A;
 }
 .footer .logo {
         font-family: 'Raleway', sans-serif;
@@ -183,19 +187,21 @@ body {
 
 .footer-link {
         font-size: 14px;
+        font-style: normal;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--White);
 }
 .footer-contact {
         font-size: 14px;
+        font-style: normal;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
 }
 .footer-contact:hover,
 .footer-contact:focus {
-    color: var(--accent-color);
+        color: var(--accent-color);
 }
 /* ====================================/FOOTER==================================== */
 
